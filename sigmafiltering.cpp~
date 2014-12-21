@@ -14,7 +14,7 @@ int main()
  return 0;
 }
  cout<<"all ok";
- sigmafilter(img,60,5);                                    //enter the sigma value(0-255) and kernel size
+ sigmafilter(img,60,5);
  namedWindow("filtered image",CV_WINDOW_AUTOSIZE);
  imshow("filtered image",img);
 
